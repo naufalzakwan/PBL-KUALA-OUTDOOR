@@ -36,13 +36,13 @@ Kuala Outdoor dirancang untuk membantu pelanggan menjelajahi perlengkapan outdoo
 
 ### Katalog Peralatan Outdoor
 
-![Halaman katalog peralatan outdoor Kuala Outdoor](screenshots/katalog-peralatan.png)
+![Halaman katalog peralatan outdoor Kuala Outdoor](screenshots/detail_produk.png)
 
 *Halaman katalog menampilkan produk, kategori, stok, harga sewa, serta tombol detail dan keranjang.*
 
 ### Paket Rental Outdoor
 
-![Halaman daftar paket rental Kuala Outdoor](screenshots/paket-rental.png)
+![Halaman daftar paket rental Kuala Outdoor](screenshots/paket_rental.png)
 
 *Halaman paket menampilkan pilihan rental beserta kapasitas dan rincian isi paket.*
 
