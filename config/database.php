@@ -1,0 +1,37 @@
+<?php
+class Database {
+    private $host = "localhost";
+    private $db_name = "kuala_outdoor";
+    private $username = "root";
+    private $password = "";
+    private $conn;
+
+    public function connect() {
+        $this->conn = null;
+
+        try {
+            $this->conn = new PDO(
+                "mysql:host={$this->host};dbname={$this->db_name};charset=utf8mb4",
+                $this->username,
+                $this->password
+            );
+            $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+            $this->conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+        } catch(PDOException $e) {
+            error_log("Database Connection Error: " . $e->getMessage());
+            http_response_code(500);
+            die(json_encode([
+                'success' => false,
+                'error' => 'Database connection failed'
+            ]));
+        }
+
+        return $this->conn;
+    }
+
+    public function getConnection() {
+        return $this->connect();
+    }
+}
+?>

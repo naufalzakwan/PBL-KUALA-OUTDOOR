@@ -1,0 +1,142 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.vercel
+
+# Ignore all Markdown files
+*.md
+**/*.md
+
+# ==========================================
+# SECURITY - ENVIRONMENT & SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# LOCAL AI & DEVELOPMENT CONFIG
+# ==========================================
+
+.kilo/
+
+# ==========================================
+# BACKUPS & ARCHIVES
+# ==========================================
+
+*.zip
+api_backup*/
+*.bak
+*.dump
+*.sql.gz
+
+# ==========================================
+# PRIVATE ENVIRONMENT FILES
+# ==========================================
+.env
+.env.*
+*.local
+
+# ==========================================
+# MARKDOWN DOCUMENTATION
+# ==========================================
+*.md
+
+# ==========================================
+# DATABASE SQL FILES
+# ==========================================
+*.sql
+*.sql.gz
+*.dump
+
+# ==========================================
+# DEBUG FILES
+# ==========================================
+*debug*
+*DEBUG*
+
+# ==========================================
+# PRIVATE CUSTOMER FILES
+# ==========================================
+upload/profiles/
+uploads/profiles/
+
+# Payment and sensitive uploads
+uploads/payments/
+uploads/payment_proofs/
+
+# ==========================================
+# BACKUPS & ARCHIVES
+# ==========================================
+*.zip
+*.bak
+api_backup*/
+
+# ==========================================
+# LOCAL CONFIGURATION
+# ==========================================
+.kilo/
+.vercel/
+.vscode/
+.idea/
+
+# Test & diagnostic scripts
+/test*.js
+/test*.php
+/test*.html
+/simple_test.php
+/final_url_test.php
+/analyze_*.php
+/check-*.js
+
+/api/test*.php
+/api/admin/test.php
+/api/packages/test_tables.php
+/api/setup-database.php
+/api/check-*.php
+/api/fix-*.php
+
+# Database maintenance scripts
+/run-db-fix.js
+/run-guide-id-fix.js
+/scan-all-tables.js
+/update-db-password.bat
+
+# Source backups
+*.backup
+
+# Local FTP and hosting configuration
+/ftp-upload.ps1
+/winscp-upload.txt
+
+# Internal deployment documentation
+/DEPLOYMENT_CHECKLIST.txt
+
+# Legacy merchandise file in project root
+/Merchandise.tsx
+
+# Legacy CORS maintenance script
+/add-cors-to-all-php.js
