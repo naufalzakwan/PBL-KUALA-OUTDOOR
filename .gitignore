@@ -163,3 +163,15 @@ api_backup*/
 /deploy-complete.bat
 /deploy-production.bat
 /deploy.bat
+
+# Legacy development and repair scripts
+/final-check.py
+/fix-all-hosting-issues.cjs
+/fix-all-localhost-urls.js
+/fix-all-php-for-infinityfree.py
+/fix-all-tables.js
+/fix-mixed-quotes.py
+/fix-remaining-php.py
+/fix-tambahequipment.py
+/update-api-urls.js
+/update-to-railway.js
