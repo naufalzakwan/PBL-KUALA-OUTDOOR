@@ -140,3 +140,26 @@ api_backup*/
 
 # Legacy CORS maintenance script
 /add-cors-to-all-php.js
+
+# =====================================
+# LEGACY DEVELOPMENT & FIX SCRIPTS
+# =====================================
+
+/final-check.py
+/fix-all-hosting-issues.cjs
+/fix-all-localhost-urls.js
+/fix-all-php-for-infinityfree.py
+/fix-all-tables.js
+/fix-mixed-quotes.py
+/fix-remaining-php.py
+/fix-tambahequipment.py
+
+# Old URL update scripts
+/update-api-urls.js
+/update-to-railway.js
+
+# Optional legacy deployment utilities
+/create-upload-package.ps1
+/deploy-complete.bat
+/deploy-production.bat
+/deploy.bat
